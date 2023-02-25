@@ -12,18 +12,36 @@
     <header id="header">
 <img id ="header-img" src="https://seeklogo.com/images/B/business-company-logo-C561B48365-seeklogo.com.png" >
 <nav id="nav-bar">
-  <a href="/html/">HTML</a> |
+  <a class ="nav-link" href="/html/">HTML</a> 
+  <a class ="nav-link" href="/html/">tv</a> 
+  <a class ="nav-link" href="/html/">desktop</a> |
   
 </nav>    
 
 </header>
-<form>
+
+<section>
+
+  <br />
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=1A8oHbhoDps" frameborder="0" allowfullscreen></iframe>
+  </iframe>
+
+  <video id="video" width="320" height="240" controls>
+    <source src="https://www.youtube.com/watch?v=1A8oHbhoDps">
+  Your browser does not support the video tag.
+  </video>
+
+</section>
+<form id="form">
   <input type="radio" id="html" name="fav_language" value="HTML">
   <label for="html">HTML</label><br>
   <input type="radio" id="css" name="fav_language" value="CSS">
   <label for="css">CSS</label><br>
   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
   <label for="javascript">JavaScript</label>
+  <label for="mail">Mail</label>
+
+<input  type="text" id="mail" name="mail">
 </form>
     <!--
 
